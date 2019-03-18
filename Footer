@@ -1,0 +1,52 @@
+ <!-- begin footer -->    
+    <div id="footer_wrap">
+        <div id="footer" class="clearfix">
+            <a href="default.en.aspx" id="LogoAnchorFooter">
+                <img src="/images/layout/logo_easydomus.png" alt="Logo" class="logo" /></a>
+            <span style="right: 350px"><a href="">holiday apartment rentals made easy!</a></span>
+            <div class="clearfix">
+                <div class="box">
+    <h1>
+        Contact us</h1>
+    + 39 (06) 92.96.30.82<br />
+    We provide many different ways to get <br/> in touch with us according to Your requirements,
+    choose the one that better fits Your needs on the <a href="contacts_info.en.aspx"  rel="nofollow">contact
+        us page</a>.
+</div>
+<div class="box">
+    <h1>
+        Faq and info</h1>
+    You need more information about the operation of our services: how to reserve an
+    apartment, what happens after the reservation?
+    <br />
+    Look at the area of <a href="info_faq.en.aspx" rel="nofollow">frequently asked questions</a>. For
+    the specifications of our services and privacy, please visit the <a href="info_conditions.en.aspx" rel="nofollow">
+        terms and conditions of service</a>.
+</div>
+<div class="box">
+    <h1>
+        Suggest Your property</h1>
+    Do you manage a property and want <br/>to collaborate with us?<br />
+    We will be glad to meet You to check and evaluate the structure. Read the <a href="owner_info.en.aspx" rel="nofollow">
+        info</a><br/>and fill the <a href="owner_registration.en.aspx" rel="nofollow">new owners form to apply</a>.
+</div>
+            </div>
+            <div class="icons clear">
+            
+
+
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    
+             <input type="submit" name="ctl00$HiddenButton" value="" id="HiddenButton" style="font-family:Verdana;font-size:8pt;font-weight:bold;width:77px;display:none" />
+            
+            <div id="ChatInvitePanel" style="display: none; background-color: Transparent;">
+            <table style="height:1000px; width:100%"><tr><td id="ChatInvitePanelIn" style="height:1000px; width:100%">
+            </td></tr></table>
+            </div>
+            
+            
+             
+    <div style=" font-size:9px">Copyright 2019 EasyDomus.com Srl - PI: 11715041007 - All rights reserved</div>
