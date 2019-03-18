@@ -1,0 +1,689 @@
+/* Resets */
+        html, body, form, img
+        {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-weight: inherit;
+            font-style: inherit;
+            font-size: 100%;
+            font-family: inherit;
+            vertical-align: baseline;
+        }
+
+        body
+        {
+            line-height: 1;
+            color: #dddddd;
+            background: #505050 url('/images/layout/header_bg.png') repeat-x;
+            height: 100%;
+            line-height:normal;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-size: 8pt;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+        html, body
+        {
+            height: 100%;
+        }
+        
+        :focus
+        {
+            outline: 0;
+        }
+        
+ 
+        .clear
+        {
+            clear: both;
+        }
+        .clearfix:after
+        {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        .clearfix
+        {
+            display: block;
+        }
+        html[xmlns] .clearfix
+        {
+            display: block;
+        }
+        * html .clearfix
+        {
+            height: 1%;
+        }
+        
+        
+        .PanelLoadingCss
+        {
+        	padding-left:35px;
+        }
+        
+        
+        /* Link Styles */
+        A:link
+        {
+            color: #dddddd;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        A:visited
+        {
+            color: #dddddd;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        A:hover
+        {
+            color: #ffffff;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .HL
+        {
+            font-weight: bold;
+            color: #E6A91B;
+        }
+        .HL1
+        {
+            font-size: 10pt;
+            font-weight: bold;
+            color: #E6A91B;
+        }
+        .HLRow
+        {
+        	background-color:#AAAAAA;
+
+        }        
+        h1
+        {
+            font: bold 15pt Verdana;
+            color: #E6A91B;
+            margin-bottom: 10px;
+        }
+        h2
+        {
+            font: bold 10pt Verdana;
+            color: #E6A91B;
+            margin-bottom: 10px;
+        }
+        h3
+        {
+            font: bold 9pt Verdana;
+            color: #E6A91B;
+            margin-bottom: 5px;
+        }
+        h4
+        {
+            font: bold 8pt Verdana;
+            color: #E6A91B;
+            margin-bottom: 2px;
+        }
+        h5
+        {
+            font: bold 8pt Verdana;
+            color: #E6A91B;
+            margin-bottom: 0px;
+        }
+        p
+        {
+            margin: 0px 0px 5px 0px;
+            padding: 0;
+            text-align: justify;
+        }
+        ul
+        {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            overflow: visible;
+        }
+        ul li
+        {
+            margin: 5px 0;
+            padding: 0;
+            list-style-type: square;
+        }
+        ol
+        {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            overflow: visible;
+        }
+        ol li
+        {
+            margin: 5px 0;
+            padding: 0;
+        }
+
+
+        .yearcalendar td
+        {
+            padding: 1px;
+        }
+        
+        
+        /* Header */
+        #header_wrap
+        {
+            height: 125px;
+            border-bottom: 1px solid #322820;
+            min-width: 1002px;
+        }
+        #header
+        {
+            position: relative;
+            height: 25px;
+            width: 1002px;
+            margin: 0 auto;
+            z-index: 1000;
+        }
+        #header .gradient
+        {
+            position: absolute;
+            height:125px;
+            width:550px;
+            background: transparent url('/images/layout/header_gradient.jpg') no-repeat 0 0;
+            left: -120px;
+            top: 0px;
+        }
+        #header .logo
+        {
+            position: absolute;
+            left: 16px;
+            top: 0px;
+        }
+        #header .languagebar
+        {
+            position: absolute;
+            left: 695px;
+            top: 1px;
+        }
+        #header .languagebar a
+        {
+            text-decoration: none;
+        }
+        #header .languagebar a:link, #header .languagebar a:visited
+        {
+            color: #897a61;
+        }
+        #header .languagebar a:hover
+        {
+            color: #998a71;
+        }
+        #header .sitemappath
+        {
+            position: absolute;
+            color: #897a61;
+            width: 585px;
+            text-align: right;
+            left: 350px;
+            top: 110px;
+            z-index:111;
+        }
+        #header .sitemappath a
+        {
+            text-decoration: none;
+        }
+        #header .sitemappath a:link, #header .sitemappath a:visited
+        {
+            color: #897a61;
+        }
+        #header .sitemappath a:hover
+        {
+            color: #998a71;
+            text-decoration:underline;
+        }
+        #header .headermenu
+        {
+            position: absolute;
+            background-color:Transparent;
+            width: 750px;
+            height:110px;
+            text-align: right;
+            left: 245px;
+            top: 55px;
+			z-index: 100;
+        }        
+        #header .loginbutton
+        {
+            position: absolute;
+            background-color:Transparent;
+            width: 30px;
+            text-align: right;
+            left: 945px;
+            top: 110px;
+			z-index: 100;
+        }   
+        
+        
+        
+        
+        /* Navigation */
+        #navigation_wrap
+        {
+            position: relative;
+            height: 2.5em;
+            background: #4e4138 url('/images/layout/navigation_bg.png') repeat-x 0 0; /*border-bottom: 1px solid #fff;*/
+            min-width: 1002px;
+        }
+        #navigation
+        {
+            position: relative;
+            height: 2.5em;
+            width: 1002px;
+            margin: 0 auto;
+        }
+        
+        
+        
+        /* Content */
+        #page_wrap
+        {
+            position: relative;
+            background: #202020;
+            width: 1002px;
+            margin: 0 auto;
+        }
+        #page
+        {
+            position: relative;
+            width: 1002px;
+        }
+        #content_wrap
+        {
+            width: 1002px;
+            vertical-align: top;
+        }
+        #content_wrap table, #content_wrap tr, #content_wrap td
+        {
+            vertical-align: top;
+        }
+        
+        #content_wrap_vab table, #content_wrap_vab tr, #content_wrap_vab td
+        {
+            vertical-align:inherit;
+        }
+        
+        
+        /* Footer */
+        #footer_wrap
+        {
+            min-width: 1002px;
+        }
+        #footer
+        {
+            position: relative;
+            background: url('/images/layout/footer_gradient.jpg') no-repeat 0 -10px;
+            width: 972px;
+            padding: 100px 0 20px 30px;
+            font-size: 1.2em;
+            line-height: 1.6em;
+            color: #a79578;
+            margin: 0 auto;
+        }
+        #footer span
+        {
+            position: absolute;
+            top: 9px;
+            left: 280px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            color: #897a61;
+        }
+        #footer span a
+        {
+            color: #897a61;
+            text-decoration: none;
+        }
+        #footer span a:hover
+        {
+            color: #fffffe;
+            text-decoration: none;
+        }
+        #footer p
+        {
+            padding-bottom: 20px;
+        }
+        #footer .footer_img
+        {
+            margin-bottom: 20px;
+        }
+        #footer_wrap
+        {
+            display: block;
+            background: #372c24 url('/images/layout/footer_bg.png') repeat-x;
+        }
+        #footer .logo
+        {
+            position: absolute;
+            left: 16px;
+            top: -30px;
+            right: 715px;
+        }
+        .box
+        {
+            width: 280px;
+            float: left;
+            text-align:left;
+            font-size:12px;
+            line-height: 1.6;
+            margin-right: 44px;
+            z-index: 99;
+        }
+        .box h1
+        {
+            color: #fffffe;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .box li
+        {
+            padding-bottom: 10px;
+        }
+        .box a:link, .box a:visited
+        {
+            color: #fffffe;
+            /*background: #2e251e;*/
+            /*padding: 2px 5px;*/
+            /*padding-bottom: 4px;*/
+            text-decoration: none;
+        }
+        .box a:hover
+        {
+            color: #fffffe;
+            /*background: #e6a91b;*/
+            text-decoration: underline;/*none*/
+        }
+        .box a:active
+        {
+            color: #fffffe;
+            text-decoration: none;
+        }
+        #footer .icons
+        {
+            border-top: 1px solid #514437;
+            width: 972px;
+            margin: 40px 0;
+            padding: 20px 0;
+        }
+        #footer img
+        {
+            margin-right: 30px;
+        }
+        #footer .last
+        {
+            margin-left: 350px;
+            margin-right: 0px;
+        }
+        
+        
+        /*Other specific settings*/
+        .watermarked
+        {
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+        .watermarked2
+        {
+            font-style: italic;
+            text-align: center;
+        }
+        .pwrank
+        {
+            padding-left: 10px;
+            padding-top: 1px;
+            font-style: normal;
+            background-color: Transparent;
+        }
+        .modalBackground
+        {
+            background-color: Gray;
+            filter: alpha(opacity=0);
+            opacity: 0.0;
+        }
+        
+        /*Ajax calendar*/
+        .MyCalendar .ajax__calendar_container
+        {
+            border: 1px solid #646464;
+            background-color: #202020;
+            color: #DDDDDD;
+        }
+        .MyCalendar .ajax__calendar_body
+        {
+            height: 120px;
+        }
+        .MyCalendar .ajax__calendar_header
+        {
+            background-color: #666666;
+            padding-top: 5px;
+        }
+        .MyCalendar .ajax__calendar_title
+        {
+            color: #E6A91B;
+            font-size: 10pt;
+        }
+        .MyCalendar .ajax__calendar_footer
+        {
+            background-color: #666666;
+        }
+        .MyCalendar .ajax__calendar_other
+        {
+            color: #777777;
+        }
+        .MyCalendar .ajax__calendar_hover
+        {
+            color: #E6A91B;
+            font-weight: bold;
+        }
+        .MyCalendar .ajax__calendar_dayname
+        {
+            font-weight: bold;
+            color: #E6A91B;
+        }
+        
+        /*Rating star*/
+        .ratingStar
+        {
+            font-size: 0pt;
+            width: 20px;
+            height: 8px;
+            margin: 0px;
+            padding: 0px;
+            cursor: pointer;
+            display: block;
+            background-repeat: no-repeat;
+        }
+        .filledRatingStar
+        {
+            background-image: url(/images/rating/filled.png);
+            width: 20px;
+            height: 8px;
+            cursor: pointer;
+        }
+        .emptyRatingStar
+        {
+            background-image: url(/images/rating/empty.png);
+            width: 20px;
+            height: 8px;
+            cursor: pointer;
+        }
+        .savedRatingStar
+        {
+            background-image: url(/images/rating/saved.png);
+            width: 20px;
+            height: 8px;
+            cursor: pointer;
+        }
+        .ratingStar2
+        {
+            font-size: 0pt;
+            width: 2px;
+            height: 8px;
+            margin: 0px;
+            padding: 0px;
+            cursor: pointer;
+            display: block;
+            background-repeat: no-repeat;
+        }
+        .filledRatingStar2
+        {
+            background-image: url(/images/rating/filled2.png);
+            width: 2px;
+            height: 8px;
+            cursor: pointer;
+        }
+        .emptyRatingStar2
+        {
+            background-image: url(/images/rating/empty2.png);
+            width: 2px;
+            height: 8px;
+            cursor: pointer;
+        }
+        .savedRatingStar2
+        {
+            background-image: url(/images/rating/saved2.png);
+            width: 2px;
+            height: 8px;
+            cursor: pointer;
+        }
+        
+        .GoogleMapPin
+        {
+        	color:#333;
+        	
+        	}
+        	
+        .GoogleMapPin a:link, .GoogleMapPin a:visited
+        {
+            color: #e6a91b;
+            text-decoration: none;
+        }
+        .GoogleMapPin a:hover
+        {
+            color: #e6a91b;
+            text-decoration: underline;
+        }
+        
+        .DetailsViewControlStyle
+		{
+			background-color:#444444;
+			color:#FFFFFF;
+			border:solid 1px #666666;
+			width:490px;
+			height:13px;
+			font-family:Verdana;
+			font-size:8pt;
+			margin-top:1px;
+			margin-bottom:1px;	
+		}
+		
+        .DetailsViewControlStyleDDL
+		{
+			background-color:#444444;
+			color:#FFFFFF;
+			border:solid 1px #666666;
+			width:490px;
+			height:17px;
+			font-family:Verdana;
+			font-size:8pt;
+			margin-top:1px;
+			margin-bottom:1px;	
+		}		
+		
+		.autocomplete_completionListElement
+		{
+			visibility: hidden;
+			margin: 0px !important;
+			background-color: #404040;
+			color: windowtext;
+			border: buttonshadow;
+			border-width: 1px;
+			border-style: solid;
+			cursor: 'default';
+			overflow: auto;
+			height: 200px;
+			text-align: left;
+			list-style-type: none !important;
+			padding: 0px;
+			margin: 0px;
+		}
+		/* AutoComplete highlighted item */.autocomplete_highlightedListItem
+		{
+			background-color: #606060;
+			color: #FFFFFF;
+			padding: 1px;
+			margin: 1px;
+			list-style-type: none !important;
+		}
+		/* AutoComplete item */.autocomplete_listItem
+		{
+			background-color: #404040;
+			color: #BBBBBB;
+			padding: 1px;
+			margin: 1px;
+			list-style-type: none !important;
+		}
+		.SelectLocationControls
+		{
+			/*text-transform: uppercase;*/
+			/*font-style:italic;*/
+		}
+		
+		/* Controllo Ctl_SelectPhoneNumber_Style */
+		.Ctl_SelectPhoneNumber_Style .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input
+		{
+		margin: 0px;
+		background-image: url(/images/layout/combobox/ComboBox_TextBox.png);
+		background-position: top left;
+		border: 0px none;
+		padding: 1px 0px 0px 8px;
+		font-size: 11px;
+		height: 18px;
+		width: 150px;
+		color:#FFFFFF;
+		}
+		.Ctl_SelectPhoneNumber_Style .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button
+		{
+		background-image: url(/images/layout/combobox/ComboBox_Button.png);
+		background-position: top left;
+		border: 0px none;
+		height: 19px;
+		width: 19px;
+		}
+		.Ctl_SelectPhoneNumber_Style .ajax__combobox_itemlist
+		{
+		border-color: #000000;
+		background-color: #FFFFFF;
+		}
+
+		.Ctl_SelectPhoneNumber_Style_NoPaddingNoMarginInput input
+		{
+		padding:0px 0px 0px 1px !Important;
+		margin:0px !Important;
+		}
+		
+		/*Standard textbox*/
+		.TextBox_Standard
+		{
+			border:solid 1px #666666; 
+			padding:0px 1px 0px 1px; 
+			margin:0px; 
+			font-family:Verdana; 
+			font-size:8pt; 
+			color:#FFFFFF; 
+			background-color:#444444;
+		}
