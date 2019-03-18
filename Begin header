@@ -1,0 +1,65 @@
+  <!-- begin header -->
+    <div id="header_wrap">
+        <div id="header">
+            <div class="gradient"></div>
+            <a href="default.en.aspx" id="LogoAnchorHeader"><img src="/images/layout/logo_easydomus.png" AlternateText="Apartments - EasyDomus home page" class="logo" /></a>
+
+            <div class="headermenu">
+            
+<table cellpadding="0" style="border-collapse: collapse; width:750px; text-align:right;">
+    <tr>
+    <td style="width:100%"></td>
+        <td><a href="default.en.aspx" id="HeaderMenuCtl_CtlImageButtonHomeLink">
+            <img src="/images/layout/menu/home_en.png" id="HeaderMenuCtl_CtlImageButtonHome" alt="Go to the Home page" OnMouseOut="this.src=&#39;/images/layout/menu/home_en.png&#39;" OnMouseOver="this.src=&#39;/images/layout/menu/home_en_on.png&#39;" /></a></td>
+        <td><a href="/apartments_search.en.aspx" id="HeaderMenuCtl_CtlImageButtonSearchLink">
+            <img src="/images/layout/menu/search_en.png" id="HeaderMenuCtl_CtlImageButtonSearch" alt="Go to the Search page" OnMouseOut="this.src=&#39;/images/layout/menu/search_en.png&#39;" OnMouseOver="this.src=&#39;/images/layout/menu/search_en_on.png&#39;" /></a></td>
+        <td><a href="/info_faq.en.aspx" id="HeaderMenuCtl_CtlImageButtonFaqLink">
+            <img src="/images/layout/menu/faq_en.png" id="HeaderMenuCtl_CtlImageButtonFaq" alt="Go to the Frequently asked questions page" OnMouseOut="this.src=&#39;/images/layout/menu/faq_en.png&#39;" OnMouseOver="this.src=&#39;/images/layout/menu/faq_en_on.png&#39;" /></a></td>
+        <td><a href="/contacts_info.en.aspx" id="HeaderMenuCtl_CtlImageButtonContactLink">
+            <img src="/images/layout/menu/contact_en.png" id="HeaderMenuCtl_CtlImageButtonContact" alt="Go to the Contact us page" OnMouseOut="this.src=&#39;/images/layout/menu/contact_en.png&#39;" OnMouseOver="this.src=&#39;/images/layout/menu/contact_en_on.png&#39;" /></a></td>
+    </tr>
+</table>
+            </div>
+            <div class="languagebar">
+            
+<table border="0" cellpadding="0" cellspacing="0" width="300">
+    <tr>
+        <td align="left" style="width: 60px; font-size:6pt; font-family:Verdana; height: 18px;" valign="middle">
+            <a href="/default.en.aspx" id="LanguageBarCtl_FlagENLink">
+            <img src="/images/layout/flags/flag_en_on.png" id="LanguageBarCtl_FlagEN" alt="EasyDomus - Apartments in Italy" width="32" height="32" /></a>
+                <a id="LanguageBarCtl_LinkEN" href="default.en.aspx">.EN</a>
+                </td>
+        <td align="left" style="width: 60px; font-size:6pt; font-family:Verdana; height: 18px;" valign="middle">
+            <a href="/default.es.aspx" id="LanguageBarCtl_FlagESLink">
+            <img src="/images/layout/flags/flag_es.png" id="LanguageBarCtl_FlagES" alt="EasyDomus - Apartments in Italy" width="32" height="32" OnMouseOut="this.src=&#39;/images/layout/flags/flag_es.png&#39;" OnMouseOver="this.src=&#39;/images/layout/flags/flag_es_on.png&#39;" /></a>
+                <a id="LanguageBarCtl_LinkES" href="default.es.aspx">.ES</a>
+                </td>
+        <td align="left" style="width: 60px; font-size:6pt; font-family:Verdana; height: 18px;" valign="middle">
+            <a href="/default.fr.aspx" id="LanguageBarCtl_FlagFRLink">
+            <img src="images/layout/flags/flag_fr.png" id="LanguageBarCtl_FlagFR" alt="EasyDomus - Apartments in Italy" width="32" height="32" OnMouseOut="this.src=&#39;/images/layout/flags/flag_fr.png&#39;" OnMouseOver="this.src=&#39;/images/layout/flags/flag_fr_on.png&#39;" /></a>
+                <a id="LanguageBarCtl_LinkFR" href="default.fr.aspx">.FR</a>
+                </td>
+        <td align="left" style="width: 60px; font-size:6pt; font-family:Verdana; height: 18px;" valign="middle">
+            <a href="/default.it.aspx" id="LanguageBarCtl_FlagITLink">
+            <img src="/images/layout/flags/flag_it.png" id="LanguageBarCtl_FlagIT" alt="EasyDomus - Apartments in Italy" width="32" height="32" OnMouseOut="this.src=&#39;/images/layout/flags/flag_it.png&#39;" OnMouseOver="this.src=&#39;/images/layout/flags/flag_it_on.png&#39;" /></a>
+                <a id="LanguageBarCtl_LinkIT" href="default.it.aspx">.IT</a>
+                </td>
+        <td align="left" style="width: 60px; font-size:6pt; font-family:Verdana; height: 18px;" valign="middle">
+            <a href="/default.de.aspx" id="LanguageBarCtl_FlagDELink">
+            <img src="/images/layout/flags/flag_de.png" id="LanguageBarCtl_FlagDE" alt="EasyDomus - Apartments in Italy" width="32" height="32" OnMouseOut="this.src=&#39;/images/layout/flags/flag_de.png&#39;" OnMouseOver="this.src=&#39;/images/layout/flags/flag_de_on.png&#39;" /></a>
+                <a id="LanguageBarCtl_LinkDE" href="default.de.aspx">.DE</a>
+                </td>
+    </tr>
+</table>
+            </div>
+            <div class="loginbutton">
+            <a href="login.en.aspx" id="CtlLogin" style="">Login</a>
+            </div>
+            <div class="sitemappath">
+            <a href="sitemap.en.aspx" id="SiteMapPathCtl_SiteMapLink">Sitemap:</a>
+<span id="SiteMapPathCtl_SiteMapPath1"><a href="#SiteMapPathCtl_SiteMapPath1_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=ee9XAkQYIlUIhwDLbALlEA8hL8edcR1AkdazoyoE6_U1aPN0RyWhq8WJyaPhoBjZwMT10YQdO1t-yqiiH2yZ9LbFPGM1&amp;t=636686726616834341" width="0" height="0" style="border-width:0px;" /></a><a id="SiteMapPathCtl_SiteMapPath1_SkipLink"></a></span>
+
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
